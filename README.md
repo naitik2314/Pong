@@ -72,5 +72,5 @@ I welcome contributions to make this Pong game even better! Here's how you can c
 5. Push your changes to your forked repository: git push origin feature-or-fix.
 6. Create a pull request on the main repository to merge your changes.
    
-We appreciate your help in making this project more awesome!
+I appreciate your help in making this project more awesome!
 

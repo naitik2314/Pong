@@ -8,8 +8,7 @@
 - [How to Play](#how-to-play)
 - [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ## About
 
 This is a simple implementation of the classic Pong game using Python's Turtle graphics library and OOP. Pong is a two-player arcade game where each player controls a paddle by moving it vertically across the screen's left or right side. Players use their paddles to strike the ball back and forth, with the goal of scoring points by making the ball pass their opponent's paddle.

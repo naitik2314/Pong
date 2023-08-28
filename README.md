@@ -1,11 +1,8 @@
 # Pong Game
 
-![Pong Game](game_screenshot.png)
-
 ## Table of Contents
 
 - [About](#about)
-- [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
@@ -15,37 +12,66 @@
 
 ## About
 
-This is a simple implementation of the classic Pong game using Python's Turtle graphics library. Pong is a two-player arcade game where each player controls a paddle by moving it vertically across the screen's left or right side. Players use their paddles to strike the ball back and forth, with the goal of scoring points by making the ball pass their opponent's paddle.
-
-## Demo
-
-You can play the game by running the `main.py` script. Make sure you have Python and the Turtle graphics library installed.
-
-  ```shell
-  python main.py
+This is a simple implementation of the classic Pong game using Python's Turtle graphics library and OOP. Pong is a two-player arcade game where each player controls a paddle by moving it vertically across the screen's left or right side. Players use their paddles to strike the ball back and forth, with the goal of scoring points by making the ball pass their opponent's paddle.
 
 ## Features
 
-This Pong game offers a range of features to provide an engaging and enjoyable gaming experience:
+- Classic Pong gameplay
+- Two-player mode
+- Adjustable score limit for winning the game
+- Customizable player names.
+- Basic collision detection and scoring
 
-- **Classic Pong Gameplay:** Enjoy the timeless fun of the classic Pong arcade game.
+## Getting started
 
-- **Two-Player Mode:** Challenge a friend and compete head-to-head in local multiplayer mode.
+To get started with this project, follow these steps:
 
-- **Customizable Score Limit:** Tailor the game's duration by setting a custom score limit for victory.
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/naitik2314/Pong.git
 
-- **Player Customization:** Personalize your gaming experience by entering your own player names.
+2. Navigate to the project directory:
+   ```bash
+   cd pong
 
-- **Basic Collision Detection:** The game includes collision detection for ball-to-wall and ball-to-paddle interactions.
+3. Run the game:
+   ```bash
+   python main.py #For Windows
+   python3 main.py #For Linux/Mac
 
-- **Scoring System:** Keep track of your progress with a scoring system that updates in real-time.
+Make sure to have Python3.x installed on your system
 
-- **Game Over Conditions:** The game ends when one player reaches the specified score limit, with a clear indication of the winner.
+## How to Play
 
-- **Customization Options:** Explore the code to customize various aspects, including screen dimensions, background color, paddle size and speed, ball speed, and appearance.
+- Player 1 controls the left paddle and uses the "W" and "S" keys to move up and down.
+- Player 2 controls the right paddle and uses the "Up" and "Down" arrow keys to move up and down.
+- The game starts when you run `main.py`.
+- Score points by making the ball pass your opponent's paddle.
+- The game ends when one player reaches the specified score limit.
 
-These features combine to create a fun and competitive Pong gaming experience that you can enjoy with a friend or customize to suit your preferences.
+## Customization
 
+You can customize the game by modifying the following settings in `main.py`:
 
+- Screen dimensions
+- Background color
+- Player names
+- Score limit
+- Paddle speed and size
+- Ball speed and appearance
 
+Feel free to explore and adapt the code to create your own version of the game.
+
+## Contributing
+
+I welcome contributions to make this Pong game even better! Here's how you can contribute:
+
+1. Fork the repository to your GitHub account.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your feature or bug fix: git checkout -b feature-or-fix.
+4. Make your changes and commit them with descriptive messages.
+5. Push your changes to your forked repository: git push origin feature-or-fix.
+6. Create a pull request on the main repository to merge your changes.
+   
+We appreciate your help in making this project more awesome!
 

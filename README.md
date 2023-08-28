@@ -20,18 +20,5 @@ Players use their paddles to strike the ball back and forth, with the goal of sc
 You can play the game by running the `main.py` script. Make sure you have Python and the Turtle graphics library installed.
 
 ```bash
-python main.py
+python3 main.py
 
-## Features
-
-- Classic Pong gameplay.
-- Two-player mode.
-- Adjustable score limit for winning the game.
-- Customizable player names.
-- Basic collision detection and scoring.
-
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. **CLone the repository**

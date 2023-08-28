@@ -19,7 +19,7 @@ Players use their paddles to strike the ball back and forth, with the goal of sc
 
 You can play the game by running the `main.py` script. Make sure you have Python and the Turtle graphics library installed.
 
-```shell
+```bash
 python main.py
 
 ## Features
